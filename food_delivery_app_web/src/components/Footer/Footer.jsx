@@ -48,21 +48,21 @@ const Footer = () => {
               <ListGroup className='delivery__time-list'>
                 <ListGroupItem className='delivery__time-item border-0 ps-0'>
                     <p>
-                      <i class="ri-map-2-line contact__icon"></i>
+                      <i className="ri-map-2-line contact__icon"></i>
                       Location: Ho Chi Minh City, Viet Nam.
                     </p>
                   </ListGroupItem>
 
                 <ListGroupItem className='delivery__time-item border-0 ps-0'>
                   <span>
-                    <i class="ri-phone-line contact__icon"></i>
+                    <i className="ri-phone-line contact__icon"></i>
                     Phone: +8499999999
                     </span>
                 </ListGroupItem>
 
                 <ListGroupItem className='delivery__time-item border-0 ps-0'>
                   <span>
-                    <i class="ri-mail-line contact__icon"></i>
+                    <i className="ri-mail-line contact__icon"></i>
                     Email: example@email.com</span>
                 </ListGroupItem>
               </ListGroup>
@@ -74,7 +74,7 @@ const Footer = () => {
            <div className='newsletter'>
               <input type="email" placeholder='Enter your email!' />
               <span>
-                <i class="ri-send-plane-line"></i>
+                <i className="ri-send-plane-line"></i>
               </span>
            </div>
           </Col>
